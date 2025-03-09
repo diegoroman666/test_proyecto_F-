@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio - FAO{% endblock %}
+
+{% block content %}
+
+<!-- Contenedor principal -->
+<div class="container mt-5">
+
+    <!-- Título y Descripción -->
+    <div class="text-center mb-4">
+        <h1 class="display-4">Panorama Regional de la Seguridad Alimentaria y la Nutrición 2024</h1>
+        <p class="lead">Un análisis detallado sobre los desafíos y avances en la seguridad alimentaria en América Latina.</p>
+    </div>
+
+    <!-- Imagen relacionada -->
+    <div class="text-center">
+        <img src="https://openknowledge.fao.org/server/api/core/bitstreams/37f74113-ab68-42a5-bc14-36f19c145911/content" class="img-fluid rounded" alt="Seguridad Alimentaria">
+    </div>
+
+    <!-- Texto adicional con estructura -->
+    <div class="mt-5">
+        <h3>Contexto Global</h3>
+        <p>La seguridad alimentaria sigue siendo uno de los mayores desafíos a nivel mundial, y particularmente en América Latina y el Caribe. A pesar de los esfuerzos de los gobiernos, muchas poblaciones continúan enfrentando problemas relacionados con el acceso y la disponibilidad de alimentos. En este contexto, la FAO, en colaboración con otras agencias de la ONU, está trabajando para implementar soluciones sostenibles para mejorar la nutrición y la seguridad alimentaria.</p>
+    </div>
+
+    <!-- Sección de estadísticas y videos (opcional) -->
+    <div class="mt-5">
+        <h3>Desafíos y Soluciones</h3>
+        <p>Los avances en seguridad alimentaria en la región son notables, pero aún persisten desafíos relacionados con la pobreza, el cambio climático y los conflictos. Este informe presenta las estadísticas más recientes y las estrategias implementadas para enfrentar estos retos. A continuación, presentamos un video explicativo sobre las acciones de la FAO:</p>
+
+        <!-- Video Embed -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/AxE5HOeXYnA" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe></div>
+    </div>
+
+</div>
+
+{% endblock %}
